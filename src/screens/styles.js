@@ -8,6 +8,7 @@ export const StyledJumbotron = styled(Jumbotron)`
   background-position: center 33%;
   background-size: cover;
   box-shadow: inset 0 0 25rem black;
+  border-radius: 0px;
 
   h1 {
     color: white;
