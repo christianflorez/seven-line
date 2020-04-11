@@ -1,107 +1,111 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+
+import Quote from "../components/Quote";
+import * as S from "./styles";
 
 function Home() {
   return (
     <>
-      <h1>Seven Line Prayer Great Accomplishment</h1>
-      <p>
-        Just prior to Dungse Shenphen Dawa Norbu Rinpoche’s passing into
-        Mahaparinirvana he emphasized what he had been telling many of his close
-        disciples for the last few years: the most important activity we can
-        engage in to help dispel imminent global obstacles to peace and harmony,
-        as well as environmental problems and instability, is to accumulate the
-        recitation of the Seven Line Prayer, the most powerful invocation to
-        Padmasambhava. At the time when Rinpoche last spoke of this in early
-        2018, he increased the goal he had set for us from one billion Seven
-        Line Prayers to twenty one billion! The implication was that the
-        negative potentials had gained so much momentum that it would require
-        this immense number to turn the tide. Clearly this will require a global
-        effort. The current count is only at about seven million so we have a
-        long way to go. (Note for Europeans: this refers to an American billion,
-        not a European billion) So let’s do our personal accumulations as we
-        also collaborate with others and inspire them to join us in this
-        important effort.
-      </p>
-      <p>
-        We have set up the following survey form for your convenience. Please
-        click here to add your accumulations once a week:
-      </p>
-      <div className="button-container">
-        <Button
-          variant="primary"
-          size="lg"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSf6RSFP97RgzK4oZnFNikSqMwFSz_kt5oINZnIkdPp1gxgw6A/viewform?c=0&w=1"
-        >
-          Submit Accumulations
-        </Button>
-      </div>
-      <p>
-        If you have any follow up questions please email them directly to:{" "}
-        <a href="mailto:sevenlineprayeraccumulation@gmail.com">
+      <S.StyledJumbotron>
+        <h1>
+          Please join the global accumulation of the Seven-Line Prayer, a
+          powerful method to heal our world.
+        </h1>
+      </S.StyledJumbotron>
+      <Container>
+        <h1>Seven Line Prayer Great Accomplishment</h1>
+        <p>Click here to add your accumulations once a month:</p>
+        <div>
+          <Button
+            variant="primary"
+            size="lg"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf6RSFP97RgzK4oZnFNikSqMwFSz_kt5oINZnIkdPp1gxgw6A/viewform?c=0&w=1"
+          >
+            Submit Accumulations
+          </Button>
+        </div>
+        <Quote author="Mipham the Great (1846-1912)">
+          Of all the prayers to the great and glorious master of Oddiyana,
+          embodiment of all Buddhas past, present, and to come, the invocation
+          composed of seven vajra verses is supreme.
+        </Quote>
+        <Quote author="H.H. Dudjom Rinpoche (1904-1987)">
+          There is no need to get bogged down in the complexities of the kyerim
+          and things like that which we don’t really understand. Simply doing
+          this practice [the Seven-Line Prayer] alone is sufficient.
+        </Quote>
+        <Quote author="Padmasambhava">
+          In the future during the darkest of times—although there exists a
+          great variety of beneficent buddhas and deities—invoking me, Orgyen
+          Padma Jungne, will bring the greatest benefit
+        </Quote>
+        <h2>
+          Why we are joining together to recite 21,000,000,000 and why this
+          invocation is so powerful:
+        </h2>
+        <p>
+          The Seven-Line Prayer, an invocation of the Indian Mahasiddha named
+          Padmasambhava ––also often referred to as Guru Rinpoche, “Precious
+          Guru” and known as the Second Buddha––is not merely a prayer. It also
+          functions as a method to awaken one’s own primordial wisdom-mind
+          according to the profound path of Ati Yoga. Although Padmasambhava is
+          a historical figure who’s known for establishing the Dharma in the
+          land of Tibet, removing all obstacles and training his heart
+          disciples; it’s also understood that he achieved a miraculous state
+          beyond death through which he can spontaneously benefit all those who
+          address him with heartfelt devotion. The Seven-Line Prayer is
+          universally known as the best means with which to do so.{" "}
+        </p>
+        <p>
+          One special revealer of Padmasambhava’s hidden treasure teachings in
+          the 20th century, widely considered to be both his emanation and
+          regent, was Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche (1904-1987).
+          Dudjom Rinpoche’s own son, heart disciple and lineage heir known as
+          Dungse Shenphen Dawa Norbu Rinpoche, in the years prior to his
+          Mahaparinirvana in 2018, often repeated this heartfelt advice to many
+          of his disciples:
+        </p>
+        <Quote author="H.H. Dudjom Rinpoche (1904-1987)">
+          The most important activity to help dispel imminent global obstacles
+          to peace and harmony, as well as environmental problems, disease and
+          instability, is to recite and accumulate the Seven-Line Prayer.{" "}
+        </Quote>
+        <p>
+          At the time when Rinpoche last spoke of this in early 2018, he
+          increased the number he felt would be able to shift our world’s
+          destructive course from one billion recitations to twenty one billion
+          (21,000,000,000). The implication was that the negative potentials had
+          gained so much momentum that it would require this immense number to
+          turn the tide. Clearly this will require a global effort!
+        </p>
+        <p>
+          Since up until now there has not been enough of an outreach, the
+          current count is at almost 10 million. Although there is still a long
+          way to go to achieve 21 billion, if everyone joins in with joyful
+          diligence it is certain that we can accomplish our goal.{" "}
+        </p>
+        <p>
+          Each person who joins a vast collective accumulation like this––no
+          matter the amount they contribute––gathers the same merit as if they
+          had achieved the total on their own.
+        </p>
+        <p>
+          So let’s use this time when millions of us in many countries are
+          forced to stay at home wisely, to progress in this accumulation for
+          our own protection and for everyone’s benefit. And please share this
+          website as widely as possible.
+        </p>
+        <p>
+          Make sure to click the links in the menu for teachings, events,
+          sadhanas and more. If you have any questions, email
           sevenlineprayeraccumulation@gmail.com
-        </a>
-      </p>
-      <p>
-        Below is a short extract of a teaching by His Holiness Dudjom Rinpoche
-        on the significance and power of this prayer. For those who are not
-        familiar with the prayer we have also included it:
-      </p>
-      <h3>His Holiness Dudjom Rinpoche Teaching On The Seven Line Prayer</h3>
-      <p>
-        Extract of His Holiness’ teaching on Guru Pema Trötengsel Paris 1984
-      </p>
-      <p>
-        "...Then we come to the invocation prayer known as "The Seven Line
-        Prayer", because it has seven lines.
-      </p>
-      <p>
-        This prayer appears a lot and will come again and again as an
-        invocation. The reason why this prayer comes so often is because at the
-        very moment Guru Rinpoche was conceived, in a lake in the North-West
-        corner of Uddiyana, realization was achieved simultaneously. When this
-        happened many millions upon millions of dakinis sang this tribute in one
-        voice as a praise to the Lotus-born Guru. These dakinis chanted this
-        from three most sacred places. Therefore, it has great blessings.
-      </p>
-      <p>
-        To go just briefly through these lines, it says that: ‘being born in the
-        North-West corner of the country of Uddiyana, in a heart-center of a
-        lotus, endowed with the most marvelous attainments, you are known as The
-        Lotus-Born Guru, surrounded by many hosts of dakinis countless in
-        number, I will follow in your footsteps’. This is basically what it
-        means.
-      </p>
-      <p>
-        This Seven Line Prayer should not be considered as just another
-        supplication or invocation prayer. Instead it should be understood to be
-        the principle prayer calling for Guru Rinpoche which itself carries
-        tremendous blessings. Due to the power of the essence of this prayer and
-        the blessings it holds, when you have obstacles or hindrances, if you
-        recite it with confidence 100,000 times, normally these can be
-        immediately removed. Moreover, when I was young, I did this practice
-        several times and found that you can do 10,000 recitations a day, which
-        means that you can complete 100,000 recitations in ten days. Since
-        countless millions of dakinis have uttered this profound prayer it has
-        remarkable blessings. So, we should consider this not only as an
-        invocation but also a means to bring about the essential blessings of
-        Guru Rinpoche himself.
-      </p>
-      <p>
-        My root-teacher, Gyurme Nyedun Wangpo, (otherwise known as, Podpong
-        Tulku or Zapong Tulku because he was coming from Za region), would give
-        this Seven Line Prayer practice to all his students and disciples to do.
-        He would even give it to the mothers and children. Whoever came to him
-        asking for teachings, he would simply say: "Just recite this prayer, and
-        while doing so, have heartfelt devotion. Recite this, that is enough".
-        Therefore, my own root teacher himself essentialized all practice down
-        to this Seven Line Prayer. So, there is no need to get bogged down in
-        the complexities of the kyerim and things like that which we don’t
-        really understand. Simply doing this practice alone is sufficient."
-      </p>
-      <div className="image-container">
-        <img src="/images/prayer.jpg" alt="Seven Line Prayer" />
-      </div>
+        </p>
+        <div>
+          <img src="/images/prayer.jpg" alt="Seven Line Prayer" />
+        </div>
+      </Container>
     </>
   );
 }
