@@ -7,6 +7,8 @@ export const TeachingsHeader = styled.h1`
 `;
 
 export const TeachingsLink = styled.div`
+  display: list-item;
+  margin-left: 1.2rem;
   font-size: 1.3rem;
   margin-bottom: 1rem;
   > a {

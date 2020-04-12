@@ -84,18 +84,6 @@ function JamgonMipham() {
           <p>Except through the timely teachings of the guru</p>
           <p>And by the virtue of your merit. Know this well. </p>
         </Quote>
-        {/* <Quote>The ultimate and coemergent wisdom</Quote>
-        <Quote>
-          Comes only through the gathering of merit and the cleansing of faults
-        </Quote>
-        <Quote>And from the blessings of accomplished gurus. </Quote>
-        <Quote>To seek it elsewhere––you should understand––is folly. </Quote>
-        <Quote>And, </Quote>
-        <Quote>Moreover it is coemergent and ineffable.</Quote>
-        <Quote>You find it nowhere else</Quote>
-        <Quote>Except through the timely teachings of the guru</Quote>
-        <Quote>And by the virtue of your merit. Know this well. </Quote> */}
-
         <p>
           In order to actualize the highest primordial wisdom, we should study
           the texts of the sutras and tantras, together with their commentaries.
