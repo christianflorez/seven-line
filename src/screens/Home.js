@@ -107,6 +107,24 @@ function Home() {
         <S.CenterContainer>
           <img src="/images/prayer.jpg" alt="Seven Line Prayer" />
         </S.CenterContainer>
+        <Quote author="Terton Pema Garwang Chi-me Yungdrung Lingpa">
+          The way to accomplish oneself as Guru Rinpoche, is all rooted in the
+          Seven-Line Prayer
+        </Quote>
+        <S.CenterContainer>
+          <S.Thangka
+            src="/images/looks_like_me.jpg"
+            alt="Looks Like Me Guru Rinpoche Statue"
+          />
+        </S.CenterContainer>
+        <Quote author="Yangthang Tulku Rinpoche (1930–2016)">
+          If you really recite this prayer from your heart, then there’s no way
+          that you can avoid bringing Guru Rinpoche forth and invoking him. So
+          it’s extremely powerful. And you should practice it at all times
+          continually. . . If you really focus on the Seven-Line Prayer, then it
+          is certain that the blessings will come. The blessings of Guru
+          Rinpoche will spring out and be born in your mind stream.
+        </Quote>
       </Container>
     </>
   );
