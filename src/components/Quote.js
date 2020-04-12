@@ -1,11 +1,13 @@
 import React from "react";
 
+import * as S from "./styles";
+
 function Quote({ children, author }) {
   return (
-    <blockquote className="blockquote mb-0">
+    <S.Blockquote className="blockquote mb-0">
       <p>{children}</p>
-      <footer className="blockquote-footer">{author}</footer>
-    </blockquote>
+      {author && <footer className="blockquote-footer">{author}</footer>}
+    </S.Blockquote>
   );
 }
 

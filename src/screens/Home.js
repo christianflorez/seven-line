@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
-import Quote from "../components/Quote";
+import Quote from "components/Quote";
 import * as S from "./styles";
 
 function Home() {
@@ -17,15 +16,15 @@ function Home() {
       <Container>
         <h1>Seven Line Prayer Great Accomplishment</h1>
         <p>Click here to add your accumulations once a month:</p>
-        <div>
-          <Button
+        <S.CenterContainer>
+          <S.AccumulationsButton
             variant="primary"
             size="lg"
             href="https://docs.google.com/forms/d/e/1FAIpQLSf6RSFP97RgzK4oZnFNikSqMwFSz_kt5oINZnIkdPp1gxgw6A/viewform?c=0&w=1"
           >
             Submit Accumulations
-          </Button>
-        </div>
+          </S.AccumulationsButton>
+        </S.CenterContainer>
         <Quote author="Mipham the Great (1846-1912)">
           Of all the prayers to the great and glorious master of Oddiyana,
           embodiment of all Buddhas past, present, and to come, the invocation
@@ -102,9 +101,9 @@ function Home() {
           sadhanas and more. If you have any questions, email
           sevenlineprayeraccumulation@gmail.com
         </p>
-        <div>
+        <S.CenterContainer>
           <img src="/images/prayer.jpg" alt="Seven Line Prayer" />
-        </div>
+        </S.CenterContainer>
       </Container>
     </>
   );

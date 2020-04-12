@@ -3,9 +3,11 @@ import { Link } from "@reach/router";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
+import * as S from "./styles";
+
 function Navigation() {
   return (
-    <Navbar bg="primary" expand="lg">
+    <S.StyledNavbar expand="lg">
       <Navbar.Brand>Seven Line Prayer Accumulation</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +20,7 @@ function Navigation() {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>
+    </S.StyledNavbar>
   );
 }
 

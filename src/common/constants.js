@@ -1,3 +1,12 @@
+const baseColors = {
+  blue: "#17224a",
+  yellow: "#c5a139",
+  red: "#ca452a",
+  white: "#ffffe4",
+};
+
 export const colors = {
-  blue: "#0000FF",
+  primary: baseColors.blue,
+  secondary: baseColors.red,
+  ...baseColors,
 };

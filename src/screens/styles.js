@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
+import { colors } from "common/constants";
 
 export const StyledJumbotron = styled(Jumbotron)`
   background-image: url(./images/gr_thangka.jpg);
@@ -11,7 +13,7 @@ export const StyledJumbotron = styled(Jumbotron)`
   border-radius: 0px;
 
   h1 {
-    color: white;
+    color: ${colors.white};
     width: 40%;
   }
 
@@ -19,5 +21,22 @@ export const StyledJumbotron = styled(Jumbotron)`
     h1 {
       width: 100%;
     }
+  }
+`;
+
+export const CenterContainer = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+`;
+
+export const AccumulationsButton = styled(Button)`
+  width: 15rem;
+  background-color: ${colors.secondary};
+  border-color: ${colors.secondary};
+
+  &&:hover {
+    background-color: ${colors.primary};
+    border-color: ${colors.primary};
   }
 `;
