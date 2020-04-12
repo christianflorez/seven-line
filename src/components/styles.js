@@ -12,6 +12,7 @@ export const AppContainer = styled.div`
   h5,
   h6 {
     color: ${colors.secondary};
+    text-align: center;
   }
 `;
 
@@ -31,6 +32,7 @@ export const StyledNavbar = styled(Navbar)`
 export const Blockquote = styled.blockquote`
   margin-top: 1.5rem;
   margin-bottom: 1.5rem !important; /* Bootstrap has an !important margin-bottom property that must be overridden */
+
   > p {
     font-style: italic;
     margin-bottom: 0.2rem;

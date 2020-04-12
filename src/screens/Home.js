@@ -69,11 +69,11 @@ function Home() {
           Mahaparinirvana in 2018, often repeated this heartfelt advice to many
           of his disciples:
         </p>
-        <Quote>
+        <S.EmphasizedParagraph>
           The most important activity to help dispel imminent global obstacles
           to peace and harmony, as well as environmental problems, disease and
           instability, is to recite and accumulate the Seven-Line Prayer.{" "}
-        </Quote>
+        </S.EmphasizedParagraph>
         <p>
           At the time when Rinpoche last spoke of this in early 2018, he
           increased the number he felt would be able to shift our world’s

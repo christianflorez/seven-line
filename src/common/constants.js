@@ -1,7 +1,8 @@
 const baseColors = {
   blue: "#17224a",
+  lightBlue: "#374fa6",
   yellow: "#c5a139",
-  red: "#ca452a",
+  red: "#8f301d",
   white: "#fafafa",
 };
 
