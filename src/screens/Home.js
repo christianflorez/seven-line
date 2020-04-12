@@ -19,7 +19,9 @@ function Home() {
           />
         </S.CenterContainer>
         <S.CenterContainer>
-          <p>Click here to add your accumulations once a month:</p>
+          <S.CallToAction>
+            Click here to add your accumulations once a month:
+          </S.CallToAction>
           <S.AccumulationsButton
             variant="primary"
             size="lg"
@@ -49,8 +51,8 @@ function Home() {
         </h2>
         <p>
           The Seven-Line Prayer, an invocation of the Indian Mahasiddha named
-          Padmasambhava ––also often referred to as Guru Rinpoche, “Precious
-          Guru” and known as the Second Buddha––is not merely a prayer. It also
+          Padmasambhava—also often referred to as Guru Rinpoche, “Precious Guru”
+          and known as the Second Buddha—is not merely a prayer. It also
           functions as a method to awaken one’s own primordial wisdom-mind
           according to the profound path of Ati Yoga. Although Padmasambhava is
           a historical figure who’s known for establishing the Dharma in the
@@ -58,7 +60,7 @@ function Home() {
           disciples; it’s also understood that he achieved a miraculous state
           beyond death through which he can spontaneously benefit all those who
           address him with heartfelt devotion. The Seven-Line Prayer is
-          universally known as the best means with which to do so.{" "}
+          universally known as the best means with which to do so.
         </p>
         <p>
           One special revealer of Padmasambhava’s hidden treasure teachings in
@@ -72,7 +74,7 @@ function Home() {
         <S.EmphasizedParagraph>
           The most important activity to help dispel imminent global obstacles
           to peace and harmony, as well as environmental problems, disease and
-          instability, is to recite and accumulate the Seven-Line Prayer.{" "}
+          instability, is to recite and accumulate the Seven-Line Prayer.
         </S.EmphasizedParagraph>
         <p>
           At the time when Rinpoche last spoke of this in early 2018, he
@@ -86,11 +88,11 @@ function Home() {
           Since up until now there has not been enough of an outreach, the
           current count is at almost 10 million. Although there is still a long
           way to go to achieve 21 billion, if everyone joins in with joyful
-          diligence it is certain that we can accomplish our goal.{" "}
+          diligence it is certain that we can accomplish our goal.
         </p>
         <p>
-          Each person who joins a vast collective accumulation like this––no
-          matter the amount they contribute––gathers the same merit as if they
+          Each person who joins a vast collective accumulation like this—no
+          matter the amount they contribute—gathers the same merit as if they
           had achieved the total on their own.
         </p>
         <p>

@@ -12,6 +12,11 @@ export const MainHeader = styled.h1`
   margin: 2rem 0 3rem 0;
 `;
 
+export const CallToAction = styled.p`
+  font-size: 1.3rem;
+  font-weight: bold;
+`;
+
 export const EmphasizedParagraph = styled.p`
   font-size: 1.3rem;
   font-style: italic;

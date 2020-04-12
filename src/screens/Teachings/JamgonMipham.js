@@ -77,7 +77,7 @@ function JamgonMipham() {
             faults
           </p>
           <p>And from the blessings of accomplished gurus. </p>
-          <p>To seek it elsewhere––you should understand––is folly. </p>
+          <p>To seek it elsewhere—you should understand—is folly. </p>
           <p>And, </p>
           <p>Moreover it is coemergent and ineffable.</p>
           <p>You find it nowhere else</p>
