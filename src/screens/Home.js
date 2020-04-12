@@ -7,16 +7,19 @@ import * as S from "./styles";
 function Home() {
   return (
     <>
-      <S.StyledJumbotron>
-        <h1>
+      <Container>
+        <S.MainHeader>
           Please join the global accumulation of the Seven-Line Prayer, a
           powerful method to heal our world.
-        </h1>
-      </S.StyledJumbotron>
-      <Container>
-        <h1>Seven Line Prayer Great Accomplishment</h1>
-        <p>Click here to add your accumulations once a month:</p>
+        </S.MainHeader>
         <S.CenterContainer>
+          <S.Thangka
+            src="/images/gr_thangka.jpg"
+            alt="Thangka of Guru Rinpoche"
+          />
+        </S.CenterContainer>
+        <S.CenterContainer>
+          <p>Click here to add your accumulations once a month:</p>
           <S.AccumulationsButton
             variant="primary"
             size="lg"
@@ -66,7 +69,7 @@ function Home() {
           Mahaparinirvana in 2018, often repeated this heartfelt advice to many
           of his disciples:
         </p>
-        <Quote author="H.H. Dudjom Rinpoche (1904-1987)">
+        <Quote>
           The most important activity to help dispel imminent global obstacles
           to peace and harmony, as well as environmental problems, disease and
           instability, is to recite and accumulate the Seven-Line Prayer.{" "}
