@@ -16,8 +16,8 @@ function Screens() {
       <HHDudjomRinpoche path="/teachings/hh-dudjom-rinpoche" />
       <JamgonMipham path="/teachings/jamgon-mipham" />
       <YangthangTulku path="/teachings/yangthang-tulku" />
-      <LamaSangdu path="/teachings/lama-sangdu" />
       <PemaGarwang path="/teachings/terton-pema-garwang" />
+      <LamaSangdu path="/teachings/lama-sangdu" />
     </Router>
   );
 }
