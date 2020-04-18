@@ -29,6 +29,12 @@ export const StyledNavbar = styled(Navbar)`
   }
 `;
 
+export const NavbarToggle = styled(Navbar.Toggle)`
+  &&.navbar-toggler {
+    border-color: ${colors.white};
+  }
+`;
+
 export const Blockquote = styled.blockquote`
   margin-top: 1.5rem;
   margin-bottom: 1.5rem !important; /* Bootstrap has an !important margin-bottom property that must be overridden */
