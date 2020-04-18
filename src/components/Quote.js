@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styles";
 
-function Quote({ children, author }) {
+function Quote({ author, children }) {
   return (
     <S.Blockquote className="blockquote mb-0">
       <p>{children}</p>
