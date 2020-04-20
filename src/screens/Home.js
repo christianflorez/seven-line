@@ -37,7 +37,7 @@ function Home() {
         </Quote>
         <Quote author="H.H. Dudjom Rinpoche (1904-1987)">
           There is no need to get bogged down in the complexities of the kyerim
-          and things like that which we don’t really understand. Simply doing
+          and things like that which we don't really understand. Simply doing
           this practice [the Seven-Line Prayer] alone is sufficient.
         </Quote>
         <Quote author="Padmasambhava">
@@ -51,22 +51,22 @@ function Home() {
         </h2>
         <p>
           The Seven-Line Prayer, an invocation of the Indian Mahasiddha named
-          Padmasambhava—also often referred to as Guru Rinpoche, “Precious Guru”
+          Padmasambhava—also often referred to as Guru Rinpoche, "Precious Guru"
           and known as the Second Buddha—is not merely a prayer. It also
-          functions as a method to awaken one’s own primordial wisdom-mind
+          functions as a method to awaken one's own primordial wisdom-mind
           according to the profound path of Ati Yoga. Although Padmasambhava is
-          a historical figure who’s known for establishing the Dharma in the
+          a historical figure who's known for establishing the Dharma in the
           land of Tibet, removing all obstacles and training his heart
-          disciples; it’s also understood that he achieved a miraculous state
+          disciples; it's also understood that he achieved a miraculous state
           beyond death through which he can spontaneously benefit all those who
           address him with heartfelt devotion. The Seven-Line Prayer is
           universally known as the best means with which to do so.
         </p>
         <p>
-          One special revealer of Padmasambhava’s hidden treasure teachings in
+          One special revealer of Padmasambhava's hidden treasure teachings in
           the 20th century, widely considered to be both his emanation and
           regent, was Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche (1904-1987).
-          Dudjom Rinpoche’s own son, heart disciple and lineage heir known as
+          Dudjom Rinpoche's own son, heart disciple and lineage heir known as
           Dungse Shenphen Dawa Norbu Rinpoche, in the years prior to his
           Mahaparinirvana in 2018, often repeated this heartfelt advice to many
           of his disciples:
@@ -78,7 +78,7 @@ function Home() {
         </S.EmphasizedParagraph>
         <p>
           At the time when Rinpoche last spoke of this in early 2018, he
-          increased the number he felt would be able to shift our world’s
+          increased the number he felt would be able to shift our world's
           destructive course from one billion recitations to twenty one billion
           (21,000,000,000). The implication was that the negative potentials had
           gained so much momentum that it would require this immense number to
@@ -96,9 +96,9 @@ function Home() {
           had achieved the total on their own.
         </p>
         <p>
-          So let’s use this time when millions of us in many countries are
+          So let's use this time when millions of us in many countries are
           forced to stay at home wisely, to progress in this accumulation for
-          our own protection and for everyone’s benefit. And please share this
+          our own protection and for everyone's benefit. And please share this
           website as widely as possible.
         </p>
         <p>
@@ -120,9 +120,9 @@ function Home() {
           />
         </S.CenterContainer>
         <Quote author="Yangthang Tulku Rinpoche (1930–2016)">
-          If you really recite this prayer from your heart, then there’s no way
+          If you really recite this prayer from your heart, then there's no way
           that you can avoid bringing Guru Rinpoche forth and invoking him. So
-          it’s extremely powerful. And you should practice it at all times
+          it's extremely powerful. And you should practice it at all times
           continually. . . If you really focus on the Seven-Line Prayer, then it
           is certain that the blessings will come. The blessings of Guru
           Rinpoche will spring out and be born in your mind stream.

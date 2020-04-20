@@ -59,7 +59,7 @@ function LamaSangdu() {
         <p>Endowed with the most marvellous attainments,</p>
         <p>པདྨ་འབྱུང་གནས་ཞེས་སུ་གྲགས༔</p>
         <p>pema jungné shyé su drak</p>
-        <p>You are renowned as the ‘Lotus-born’,</p>
+        <p>You are renowned as the ‘Lotus-born',</p>
         <p>འཁོར་དུ་མཁའ་འགྲོ་མང་པོས་བསྐོར༔</p>
         <p>khor du khandro mangpö kor</p>
         <p>Surrounded by many hosts of ḍākinīs</p>
@@ -105,7 +105,7 @@ function LamaSangdu() {
         <p>
           This great blessing, which arises of its own accord, will dispel all
           the suffering that will ripen on you, or be experienced by others.
-          When your mind is transformed, others’ perceptions will simultaneously
+          When your mind is transformed, others' perceptions will simultaneously
           change, you will accomplish enlightened activity, and all noble
           qualities will be complete within you.
         </p>

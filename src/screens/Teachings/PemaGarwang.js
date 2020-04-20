@@ -11,7 +11,11 @@ function PemaGarwang() {
           Excerpt from the terma (treasure teachings) revealed by Terton Pema
           Garwang Chi-me Yungdrung Lingpa:
         </S.PageHeader>
-        <Quote author="Excerpted from Thinley Norbu Rinpoche’s commentary on the Seven-Line Prayer titled “The Sole Panacea”, published by Shambhala">
+        <Quote
+          author={
+            'Excerpted from Thinley Norbu Rinpoche\'s commentary on the Seven-Line Prayer titled "The Sole Panacea", published by Shambhala'
+          }
+        >
           <p>The way to accomplish oneself as Guru Rinpoche</p>
           <p>Is all rooted in the Seven-Line Prayer.</p>
           <p>The seven consciousnesses of the basis, </p>

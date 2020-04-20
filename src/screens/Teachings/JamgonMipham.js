@@ -8,8 +8,8 @@ function JamgonMipham() {
     <>
       <Container>
         <S.PageHeader>
-          Excerpt from Jamgon Mipham's (Mipham the Great’s) commentary on the
-          Seven Line Prayer titled “White Lotus”:
+          Excerpt from Jamgon Mipham's (Mipham the Great's) commentary on the
+          Seven Line Prayer titled "White Lotus":
         </S.PageHeader>
         <p>
           In the beginning, we can use the Seven-Line Prayer as a part of the
@@ -67,7 +67,7 @@ function JamgonMipham() {
           of the upper realms and the ultimate excellence of Buddhahood manifest
           when we follow a teacher. This is particularly true of the realization
           of the profound path, which depends entirely on the reception of the
-          teacher’s blessings. As it is said,
+          teacher's blessings. As it is said,
         </p>
 
         <Quote>
@@ -98,7 +98,7 @@ function JamgonMipham() {
           liberation, we will reap the fruit of both now and ultimately.
         </p>
         <p>
-          ~Excerpted from “White Lotus” by Jamgon Mipham, published by Shambhala
+          ~Excerpted from "White Lotus" by Jamgon Mipham, published by Shambhala
         </p>
       </Container>
     </>

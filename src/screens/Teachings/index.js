@@ -17,8 +17,8 @@ function Teachings() {
         </S.TeachingsLink>
         <S.TeachingsLink>
           <Link to="jamgon-mipham">
-            Excerpt from Jamgon Mipham's (Mipham the Great’s) commentary on the
-            Seven Line Prayer titled “White Lotus”
+            Excerpt from Jamgon Mipham's (Mipham the Great's) commentary on the
+            Seven Line Prayer titled "White Lotus"
           </Link>
         </S.TeachingsLink>
         <S.TeachingsLink>

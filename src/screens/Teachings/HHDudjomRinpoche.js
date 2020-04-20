@@ -8,7 +8,7 @@ function HHDudjomRinpoche() {
     <>
       <Container>
         <S.PageHeader>
-          Extract of His Holiness’ teaching on Guru Pema Trötengsel Paris 1984:
+          Extract of His Holiness' teaching on Guru Pema Trötengsel Paris 1984:
         </S.PageHeader>
         <p>
           ...Then we come to the invocation prayer known as "The Seven-Line
@@ -29,7 +29,7 @@ function HHDudjomRinpoche() {
           the North-West corner of the country of Uddiyana, in a heart-center of
           a lotus, endowed with the most marvelous attainments, you are known as
           The Lotus-Born Guru, surrounded by many hosts of dakinis countless in
-          number, I will follow in your footsteps’. This is basically what it
+          number, I will follow in your footsteps'. This is basically what it
           means.
         </p>
         <p>
@@ -52,12 +52,12 @@ function HHDudjomRinpoche() {
           Tulku or Zapong Tulku because he was coming from Za region), would
           give this Seven-Line Prayer practice to all his students and disciples
           to do. He would even give it to the mothers and children. Whoever came
-          to him to ask for teachings, he would simply say: “Just recite this
+          to him to ask for teachings, he would simply say: "Just recite this
           and have devotion while reciting this prayer. Recite this, that is
-          enough”. Therefore, my own root-teacher himself essentialized all
+          enough". Therefore, my own root-teacher himself essentialized all
           practice down to this Seven-Line Prayer. So, there is no need to get
           bogged down in the complexities of the kyerim and things like that
-          which we don’t really understand. Simply doing this practice alone is
+          which we don't really understand. Simply doing this practice alone is
           sufficient.
         </p>
       </Container>

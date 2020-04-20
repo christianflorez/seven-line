@@ -25,7 +25,13 @@ function Navigation() {
             <Link to="/teachings">Teachings</Link>
           </Nav.Link>
           <Nav.Link>
+            <Link to="/sadhanas">Sadhanas</Link>
+          </Nav.Link>
+          <Nav.Link>
             <Link to="/gallery">Gallery</Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to="/tips">Tips</Link>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
