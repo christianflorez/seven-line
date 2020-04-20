@@ -6,10 +6,10 @@ function YangthangTulku() {
   return (
     <>
       <Container>
-        <S.TeachingsHeader>
+        <S.PageHeader>
           Teachings on the Seven Line Prayer Yangthang Tulku Translated by
           Vanessa Turner Santa Monica, December 9, 2006
-        </S.TeachingsHeader>
+        </S.PageHeader>
         <p>Prayers for teachings. Then Rinpoche speaks.</p>
         <p>Now I have to turn that wheel of dharma.</p>
         <p>

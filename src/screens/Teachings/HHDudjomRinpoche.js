@@ -7,9 +7,9 @@ function HHDudjomRinpoche() {
   return (
     <>
       <Container>
-        <S.TeachingsHeader>
+        <S.PageHeader>
           Extract of His Holiness’ teaching on Guru Pema Trötengsel Paris 1984:
-        </S.TeachingsHeader>
+        </S.PageHeader>
         <p>
           ...Then we come to the invocation prayer known as "The Seven-Line
           Prayer", because it has seven lines.

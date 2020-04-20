@@ -7,12 +7,12 @@ function LamaSangdu() {
   return (
     <>
       <Container>
-        <S.TeachingsHeader>
+        <S.PageHeader>
           ༄༅།
           །བླ་མ་གསང་འདུས་ལས་གསུངས་པའི་ཁྱད་པར་བླ་སྒྲུབ་ཚིག་བདུན་གསོལ་འདེབས་བཞུགས།
           Accomplishing the Lama through the Seven Line Prayer: A Special
           Teaching from the Lama Sangdü
-        </S.TeachingsHeader>
+        </S.PageHeader>
 
         <p>The terma revelation of Guru Chöwang</p>
         <p>ཐུགས་དམ་ལྷ་ལ་ཕྱག་འཚལ་ལོ༔</p>

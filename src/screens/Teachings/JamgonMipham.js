@@ -7,10 +7,10 @@ function JamgonMipham() {
   return (
     <>
       <Container>
-        <S.TeachingsHeader>
+        <S.PageHeader>
           Excerpt from Jamgon Mipham's (Mipham the Great’s) commentary on the
           Seven Line Prayer titled “White Lotus”:
-        </S.TeachingsHeader>
+        </S.PageHeader>
         <p>
           In the beginning, we can use the Seven-Line Prayer as a part of the
           guru-yoga practice. It establishes the favorable conditions for the

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { colors } from "common/constants";
 
-export const TeachingsHeader = styled.h1`
+export const PageHeader = styled.h1`
   margin-top: 1rem;
   margin-bottom: 1rem;
 `;

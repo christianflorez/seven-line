@@ -24,6 +24,9 @@ function Navigation() {
           <Nav.Link>
             <Link to="/teachings">Teachings</Link>
           </Nav.Link>
+          <Nav.Link>
+            <Link to="/gallery">Gallery</Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </S.StyledNavbar>

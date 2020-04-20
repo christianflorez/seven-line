@@ -37,3 +37,8 @@ export const Thangka = styled.img`
   max-height: 40rem;
   margin-bottom: 2rem;
 `;
+
+export const PageHeader = styled.h1`
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+`;

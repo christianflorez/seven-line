@@ -8,7 +8,7 @@ function Teachings() {
   return (
     <>
       <Container>
-        <S.TeachingsHeader>Teachings</S.TeachingsHeader>
+        <S.PageHeader>Teachings</S.PageHeader>
         <S.TeachingsLink>
           <Link to="hh-dudjom-rinpoche">
             His Holiness Dudjom Rinpoche Teaching On The Seven Line Prayer,
