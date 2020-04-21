@@ -36,11 +36,17 @@ function Tips() {
           is muddied. So please be diligent with your pronunciation.
         </p>
         <p>
-          Finally, only submit the number you've accumulated since joining this
-          effort. Numbers you've accumulated in previous years prior to learning
-          about this are very meritorious, just not something to include in this
+          Only submit the number you've accumulated since joining this effort.
+          Numbers you've accumulated in previous years prior to learning about
+          this are very meritorious, just not something to include in this
           count. The intention to join the collective effort is an essential
           element.
+        </p>
+        <p>
+          And finally, please be careful to write your numbers clearly with no
+          mistakes. Only use numbers for your entry, do not use commas or
+          decimal points. If you've completed ten thousand, write 10000 as
+          opposed to 10.000 or 10,000.
         </p>
         <p>Thank you for joining us in this vast field of merit! </p>
       </Container>
