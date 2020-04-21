@@ -36,6 +36,7 @@ export const AccumulationsButton = styled(Button)`
 export const Image = styled.img`
   max-height: 40rem;
   margin-bottom: 2rem;
+  max-width: 95vw;
 `;
 
 export const ImageCaption = styled.p`

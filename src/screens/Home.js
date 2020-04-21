@@ -107,7 +107,7 @@ function Home() {
           sevenlineprayeraccumulation@gmail.com
         </p>
         <S.CenterContainer>
-          <img src="/images/prayer.jpg" alt="Seven Line Prayer" />
+          <S.Image src="/images/prayer.jpg" alt="Seven Line Prayer" />
         </S.CenterContainer>
         <Quote author="Terton Pema Garwang Chi-me Yungdrung Lingpa">
           The way to accomplish oneself as Guru Rinpoche, is all rooted in the
