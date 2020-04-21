@@ -33,9 +33,14 @@ export const AccumulationsButton = styled(Button)`
   }
 `;
 
-export const Thangka = styled.img`
+export const Image = styled.img`
   max-height: 40rem;
   margin-bottom: 2rem;
+`;
+
+export const ImageCaption = styled.p`
+  margin-bottom: 4rem;
+  font-style: italic;
 `;
 
 export const PageHeader = styled.h1`

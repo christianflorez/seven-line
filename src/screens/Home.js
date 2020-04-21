@@ -13,7 +13,7 @@ function Home() {
           powerful method to heal our world.
         </S.MainHeader>
         <S.CenterContainer>
-          <S.Thangka
+          <S.Image
             src="/images/gr_thangka.jpg"
             alt="Thangka of Guru Rinpoche"
           />
@@ -114,7 +114,7 @@ function Home() {
           Seven-Line Prayer
         </Quote>
         <S.CenterContainer>
-          <S.Thangka
+          <S.Image
             src="/images/looks_like_me.jpg"
             alt="Looks Like Me Guru Rinpoche Statue"
           />
@@ -127,6 +127,39 @@ function Home() {
           is certain that the blessings will come. The blessings of Guru
           Rinpoche will spring out and be born in your mind stream.
         </Quote>
+        <S.CenterContainer>
+          <S.Image
+            src="/images/gallery/gdc.jpg"
+            alt="Guru Dewa Chenpo Statue"
+          />
+          <S.ImageCaption>
+            A sacred terma statue of Guru Rinpoche known as Guru Dewa Chenpo,
+            said to liberate one upon seeing it. This was one of the most
+            precious items kept by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche,
+            who would often sit in meditation with it. While he meditated with
+            it, it would shed tears of amrita.
+          </S.ImageCaption>
+        </S.CenterContainer>
+        <S.CenterContainer>
+          <S.Image
+            src="/images/gallery/IMG_3158.JPG"
+            alt="Guru Nang Sid Nilzon Statue"
+          />
+          <S.ImageCaption>
+            "Guru Nang Sid Nilzon" statue of Guru Rinpoche made entirely out of
+            mendrup / dutsi by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche
+          </S.ImageCaption>
+        </S.CenterContainer>
+        <S.CenterContainer>
+          <S.Image
+            src="/images/gallery/IMG_3131.JPG"
+            alt="embroidered thangka of Guru Rinpoche made by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche's eldest daughter"
+          />
+          <S.ImageCaption>
+            Special embroidered thangka of Guru Rinpoche made by Kyabje Dudjom
+            Jigdral Yeshe Dorje Rinpoche's eldest daughter Semo Dechen Yudron.
+          </S.ImageCaption>
+        </S.CenterContainer>
       </Container>
     </>
   );
