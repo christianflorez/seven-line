@@ -18,6 +18,12 @@ const images = [
     thumbnail: "images/gallery/IMG_3116_tn.jpg",
   },
   {
+    original: "images/gallery/gdc.jpg",
+    thumbnail: "images/gallery/gdc_tn.jpg",
+    description:
+      "A sacred terma statue of Guru Rinpoche known as Guru Dewa Chenpo, said to liberate one upon seeing it. This was one of the most precious items kept by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche, who would often sit in meditation with it. While he meditated with it, it would shed tears of amrita.",
+  },
+  {
     original: "images/gallery/IMG_3121.JPG",
     thumbnail: "images/gallery/IMG_3121_tn.jpg",
   },
