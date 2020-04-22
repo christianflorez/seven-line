@@ -129,6 +129,13 @@ function Home() {
         </Quote>
         <S.CenterContainer>
           <S.Image
+            src="/images/sdr.jpg"
+            alt="Dungse Shenphen Dawa Norbu Rinpoche"
+          />
+          <S.ImageCaption>Dungse Shenphen Dawa Norbu Rinpoche</S.ImageCaption>
+        </S.CenterContainer>
+        <S.CenterContainer>
+          <S.Image
             src="/images/gallery/gdc.jpg"
             alt="Guru Dewa Chenpo Statue"
           />
