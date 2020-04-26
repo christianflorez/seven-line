@@ -38,6 +38,7 @@ export const EmailSignupButton = styled(Button)`
   width: 20rem;
   background-color: ${colors.yellow};
   border-color: ${colors.yellow};
+  margin: 3rem 0rem;
 
   &&:hover {
     background-color: ${colors.lightBlue};
