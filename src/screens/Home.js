@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 import Quote from "components/Quote";
-import Subscribe from "components/Subscribe";
 import * as S from "./styles";
 
 function Home() {
@@ -107,7 +106,15 @@ function Home() {
           sadhanas and more. If you have any questions, email
           sevenlineprayeraccumulation@gmail.com
         </p>
-        <Subscribe />
+        <S.CenterContainer>
+          <S.EmailSignupButton
+            variant="primary"
+            size="lg"
+            href="https://sevenlineprayer.us4.list-manage.com/subscribe/post?u=938505ce5a3186bedb1e0017d&amp;id=d9e5cd098f"
+          >
+            Signup for our Email List here
+          </S.EmailSignupButton>
+        </S.CenterContainer>
         <S.CenterContainer>
           <S.Image src="/images/prayer.jpg" alt="Seven Line Prayer" />
         </S.CenterContainer>

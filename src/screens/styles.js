@@ -34,6 +34,17 @@ export const AccumulationsButton = styled(Button)`
   }
 `;
 
+export const EmailSignupButton = styled(Button)`
+  width: 20rem;
+  background-color: ${colors.yellow};
+  border-color: ${colors.yellow};
+
+  &&:hover {
+    background-color: ${colors.lightBlue};
+    border-color: ${colors.lightBlue};
+  }
+`;
+
 export const Image = styled.img`
   max-height: 40rem;
   margin-bottom: 2rem;
