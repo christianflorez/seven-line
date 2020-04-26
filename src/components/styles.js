@@ -44,3 +44,14 @@ export const Blockquote = styled.blockquote`
     margin-bottom: 0.2rem;
   }
 `;
+
+export const SubscribeContainer = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 3rem 0;
+
+  > form {
+    width: 80%;
+  }
+`;

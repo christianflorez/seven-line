@@ -1,5 +1,6 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+import SubscribeForm from "./SubscribeForm";
 
 const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 
@@ -9,7 +10,7 @@ function Subscribe() {
       url={url}
       render={({ subscribe, status, message }) => (
         <div>
-          <MyForm onSubmitted={(formData) => subscribe(formData)} />
+          <SubscribeForm subscribe={subscribe} />
           {status === "sending" && (
             <div style={{ color: "blue" }}>sending...</div>
           )}
