@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Button from "react-bootstrap/Button";
+import ReactPlayer from "react-player";
 import { colors } from "common/constants";
 
 export const CenterContainer = styled.div`
@@ -47,4 +48,8 @@ export const ImageCaption = styled.p`
 export const PageHeader = styled.h1`
   margin-top: 1rem;
   margin-bottom: 1rem;
+`;
+
+export const StyledReactPlayer = styled(ReactPlayer)`
+  margin-bottom: 4rem;
 `;

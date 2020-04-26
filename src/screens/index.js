@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import Home from "./Home";
 import Gallery from "./Gallery";
 import Tips from "./Tips";
+import Media from "./Media";
 import Teachings from "./Teachings";
 import ShowerOfBlessings from "./Sadhanas/ShowerOfBlessings";
 import ShowerOfBlessingsAddendum from "./Sadhanas/ShowerOfBlessingsAddendum";
@@ -21,6 +22,7 @@ function Screens() {
       <Teachings path="/teachings" />
       <Sadhanas path="/sadhanas" />
       <Tips path="/tips" />
+      <Media path="/media" />
       <HHDudjomRinpoche path="/teachings/hh-dudjom-rinpoche" />
       <JamgonMipham path="/teachings/jamgon-mipham" />
       <YangthangTulku path="/teachings/yangthang-tulku" />

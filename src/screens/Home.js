@@ -150,10 +150,10 @@ function Home() {
         <S.CenterContainer>
           <S.Image
             src="/images/gallery/IMG_3158.JPG"
-            alt="Guru Nang Sid Nilzon Statue"
+            alt="Guru Nangsi Zilnon Statue"
           />
           <S.ImageCaption>
-            "Guru Nang Sid Nilzon" statue of Guru Rinpoche made entirely out of
+            "Guru Nangsi Zilnon" statue of Guru Rinpoche made entirely out of
             mendrup / dutsi by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche
           </S.ImageCaption>
         </S.CenterContainer>

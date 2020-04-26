@@ -31,6 +31,9 @@ function Navigation() {
             <Link to="/gallery">Gallery</Link>
           </Nav.Link>
           <Nav.Link>
+            <Link to="/media">Media</Link>
+          </Nav.Link>
+          <Nav.Link>
             <Link to="/tips">Tips</Link>
           </Nav.Link>
         </Nav>
