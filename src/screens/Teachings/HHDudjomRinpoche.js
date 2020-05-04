@@ -25,7 +25,7 @@ function HHDudjomRinpoche() {
           has great blessings.
         </p>
         <p>
-          To go just briefly through these lines, it says that: ‘being born in
+          To go just briefly through these lines, it says that: 'being born in
           the North-West corner of the country of Uddiyana, in a heart-center of
           a lotus, endowed with the most marvelous attainments, you are known as
           The Lotus-Born Guru, surrounded by many hosts of dakinis countless in

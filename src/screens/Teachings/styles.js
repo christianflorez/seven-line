@@ -15,3 +15,9 @@ export const TeachingsLink = styled.div`
     color: ${colors.primary};
   }
 `;
+
+export const CenterContainer = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+`;

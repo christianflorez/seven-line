@@ -41,6 +41,16 @@ function Teachings() {
             Garwang Chi-me Yungdrung Lingpa
           </Link>
         </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="orgyen-tobgyal">
+            The Seven Line Prayer: The Essence of All by Orgyen Tobgyal Rinpoche
+          </Link>
+        </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="lama-tharchin">
+            Seven Line Prayer Teaching by Lama Tharchin Rinpoche
+          </Link>
+        </S.TeachingsLink>
       </Container>
     </>
   );

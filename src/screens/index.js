@@ -13,6 +13,8 @@ import JamgonMipham from "./Teachings/JamgonMipham";
 import YangthangTulku from "./Teachings/YangthangTulku";
 import LamaSangdu from "./Teachings/LamaSangdu";
 import PemaGarwang from "./Teachings/PemaGarwang";
+import OrgyenTobgyal from "./Teachings/OrgyenTobgyal";
+import LamaTharchin from "./Teachings/LamaTharchin";
 
 function Screens() {
   return (
@@ -28,6 +30,8 @@ function Screens() {
       <YangthangTulku path="/teachings/yangthang-tulku" />
       <PemaGarwang path="/teachings/terton-pema-garwang" />
       <LamaSangdu path="/teachings/lama-sangdu" />
+      <OrgyenTobgyal path="/teachings/orgyen-tobgyal" />
+      <LamaTharchin path="/teachings/lama-tharchin" />
       <ShowerOfBlessings path="/sadhanas/sob" />
       <ShowerOfBlessingsAddendum path="/sadhanas/sob-addendum" />
     </Router>

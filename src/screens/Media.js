@@ -21,6 +21,8 @@ function Media() {
           <S.StyledReactPlayer url="https://youtu.be/mnnIafds1Tw" />
           <p>H.E. Chagdud Tulku Rinpoche</p>
           <S.StyledReactPlayer url="https://youtu.be/pfeBhl59mEg" />
+          <p>Nyoshul Khen Rinpoche</p>
+          <S.StyledReactPlayer url="https://youtu.be/9QNqp8gp904" />
         </S.CenterContainer>
       </Container>
     </>
