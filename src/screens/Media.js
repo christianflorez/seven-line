@@ -23,7 +23,10 @@ function Media() {
           <S.StyledReactPlayer url="https://youtu.be/pfeBhl59mEg" />
           <p>Nyoshul Khen Rinpoche</p>
           <S.StyledReactPlayer url="https://youtu.be/9QNqp8gp904" />
-          <p>From Doha Songs</p>
+          <p>
+            From the Doha Songs collection produced by Dzam Studios of the
+            Tsogyelgar Community
+          </p>
           <S.StyledReactPlayer url="https://www.youtube.com/watch?v=tO1yoEn4-Xo&feature=youtu.be" />
           <p>Translation from Erik Pema Kunsang , vocals by Rodrigo Reijers</p>
           <S.StyledReactPlayer url="https://www.youtube.com/watch?v=5F5W1opsz_g&feature=youtu.be&app=desktop" />
