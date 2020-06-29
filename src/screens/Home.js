@@ -85,10 +85,45 @@ function Home() {
           turn the tide. Clearly this will require a global effort!
         </p>
         <p>
-          Since up until now there has not been enough of an outreach, the
-          current count is at almost 10 million. Although there is still a long
-          way to go to achieve 21 billion, if everyone joins in with joyful
-          diligence it is certain that we can accomplish our goal.
+          Now this is not an effort specific to one sangha or one lineage.
+          Firstly, Dungse Shenphen Dawa Norbu Rinpoche has merged with the
+          dharmakaya, so he can not oversee this, although he was an initial
+          inspiration. Secondly, the only way to achieve such a vast number is
+          through an egalitarian spirit of collaboration among monks, nuns,
+          yogis and yoginis around the world from various sanghas, monasteries,
+          nunneries, gars, etc. in a way never done before. And not just
+          Nyingmapas, but from all schools, anyone who feels faith and devotion
+          to Guru Padmasambhava. In an inspiring example of this, Kyabje Bhakha
+          Tulku Rinpoche—an emanation of the great Terton Pema Lingpa—has fully
+          endorsed this global accumulation, asking all those connected with him
+          to join. He also graciously agreed to compose a short piece of writing
+          on the benefits of this invocation, to help encourage everyone to
+          join. We include it here in Tibetan, with a translation forthcoming:
+        </p>
+        <S.CenterContainer>
+          <S.Image
+            src="/images/btbenefits.jpg"
+            alt="Bhaka Tulku's Writing on the benefits of the Seven Line Prayer (in Tibetan)"
+          />
+        </S.CenterContainer>
+        <S.CenterContainer>
+          <S.Image
+            src="/images/btcalligraphy.jpg"
+            alt="Photo of a hand carved stone with Bhakha Tulku Rinpoche’s calligraphy of the Seven Line Prayer"
+          />
+          <p>
+            <em>
+              Photo of a hand carved stone with Bhakha Tulku Rinpoche’s
+              calligraphy of the Seven Line Prayer
+            </em>
+          </p>
+        </S.CenterContainer>
+        <p>
+          Already we have accumulated a great number, and are approaching 12
+          million, however this is a small portion of the vast goal. So please
+          join and spread the word, and encourage others to as well. If everyone
+          joins in with joyful diligence it is certain that we can accomplish
+          our goal.
         </p>
         <p>
           Each person who joins a vast collective accumulation like this—no
