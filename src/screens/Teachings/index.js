@@ -51,6 +51,11 @@ function Teachings() {
             Seven Line Prayer Teaching by Lama Tharchin Rinpoche
           </Link>
         </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="taklung-tsetrul">
+            Seven Line Prayer Teaching by H.H. Taklung Tsetrul Rinpoche
+          </Link>
+        </S.TeachingsLink>
       </Container>
     </>
   );

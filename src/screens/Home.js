@@ -111,12 +111,10 @@ function Home() {
             src="/images/btcalligraphy.jpg"
             alt="Photo of a hand carved stone with Bhakha Tulku Rinpoche’s calligraphy of the Seven Line Prayer"
           />
-          <p>
-            <em>
-              Photo of a hand carved stone with Bhakha Tulku Rinpoche’s
-              calligraphy of the Seven Line Prayer
-            </em>
-          </p>
+          <S.ImageCaption>
+            Photo of a hand carved stone with Bhakha Tulku Rinpoche’s
+            calligraphy of the Seven Line Prayer
+          </S.ImageCaption>
         </S.CenterContainer>
         <p>
           Already we have accumulated a great number, and are approaching 12
@@ -149,8 +147,6 @@ function Home() {
           >
             Signup for our Email List here
           </S.EmailSignupButton>
-        </S.CenterContainer>
-        <S.CenterContainer>
           <S.Image src="/images/prayer.jpg" alt="Seven Line Prayer" />
         </S.CenterContainer>
         <Quote author="Terton Pema Garwang Chi-me Yungdrung Lingpa">
@@ -177,8 +173,7 @@ function Home() {
             alt="Dungse Shenphen Dawa Norbu Rinpoche"
           />
           <S.ImageCaption>Dungse Shenphen Dawa Norbu Rinpoche</S.ImageCaption>
-        </S.CenterContainer>
-        <S.CenterContainer>
+
           <S.Image
             src="/images/gallery/gdc.jpg"
             alt="Guru Dewa Chenpo Statue"
@@ -190,8 +185,6 @@ function Home() {
             who would often sit in meditation with it. While he meditated with
             it, it would shed tears of amrita.
           </S.ImageCaption>
-        </S.CenterContainer>
-        <S.CenterContainer>
           <S.Image
             src="/images/gallery/IMG_3158.JPG"
             alt="Guru Nangsi Zilnon Statue"
@@ -200,16 +193,16 @@ function Home() {
             "Guru Nangsi Zilnon" statue of Guru Rinpoche made entirely out of
             mendrup / dutsi by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche
           </S.ImageCaption>
-        </S.CenterContainer>
-        <S.CenterContainer>
           <S.Image
             src="/images/gallery/IMG_3131.JPG"
-            alt="embroidered thangka of Guru Rinpoche made by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche's eldest daughter"
+            alt="Embroidered thangka of Guru Rinpoche made by Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche's eldest daughter"
           />
           <S.ImageCaption>
             Special embroidered thangka of Guru Rinpoche made by Kyabje Dudjom
             Jigdral Yeshe Dorje Rinpoche's eldest daughter Semo Dechen Yudron.
           </S.ImageCaption>
+          <S.Image src="/images/btr.jpg" alt="Photo of Bhaka Tulku Rinpoche" />
+          <S.ImageCaption>Bhaka Tulku Rinpoche</S.ImageCaption>
         </S.CenterContainer>
       </Container>
     </>

@@ -34,7 +34,7 @@ function Navigation() {
             <Link to="/media">Media</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/tips">Tips</Link>
+            <Link to="/guidelines">Guidelines</Link>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

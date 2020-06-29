@@ -2,7 +2,7 @@ import React from "react";
 import { Router } from "@reach/router";
 import Home from "./Home";
 import Gallery from "./Gallery";
-import Tips from "./Tips";
+import Guidelines from "./Guidelines";
 import Media from "./Media";
 import Teachings from "./Teachings";
 import ShowerOfBlessings from "./Sadhanas/ShowerOfBlessings";
@@ -15,6 +15,7 @@ import LamaSangdu from "./Teachings/LamaSangdu";
 import PemaGarwang from "./Teachings/PemaGarwang";
 import OrgyenTobgyal from "./Teachings/OrgyenTobgyal";
 import LamaTharchin from "./Teachings/LamaTharchin";
+import TaklungTsetrul from "./Teachings/TaklungTsetrul";
 
 function Screens() {
   return (
@@ -23,7 +24,7 @@ function Screens() {
       <Gallery path="/gallery" />
       <Teachings path="/teachings" />
       <Sadhanas path="/sadhanas" />
-      <Tips path="/tips" />
+      <Guidelines path="/guidelines" />
       <Media path="/media" />
       <HHDudjomRinpoche path="/teachings/hh-dudjom-rinpoche" />
       <JamgonMipham path="/teachings/jamgon-mipham" />
@@ -32,6 +33,7 @@ function Screens() {
       <LamaSangdu path="/teachings/lama-sangdu" />
       <OrgyenTobgyal path="/teachings/orgyen-tobgyal" />
       <LamaTharchin path="/teachings/lama-tharchin" />
+      <TaklungTsetrul path="/teachings/taklung-tsetrul" />
       <ShowerOfBlessings path="/sadhanas/sob" />
       <ShowerOfBlessingsAddendum path="/sadhanas/sob-addendum" />
     </Router>
