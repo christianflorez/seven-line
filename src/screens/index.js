@@ -16,6 +16,7 @@ import PemaGarwang from "./Teachings/PemaGarwang";
 import OrgyenTobgyal from "./Teachings/OrgyenTobgyal";
 import LamaTharchin from "./Teachings/LamaTharchin";
 import TaklungTsetrul from "./Teachings/TaklungTsetrul";
+import LamaRangbar from "./Teachings/LamaRangbar";
 
 function Screens() {
   return (
@@ -34,6 +35,7 @@ function Screens() {
       <OrgyenTobgyal path="/teachings/orgyen-tobgyal" />
       <LamaTharchin path="/teachings/lama-tharchin" />
       <TaklungTsetrul path="/teachings/taklung-tsetrul" />
+      <LamaRangbar path="/teachings/lama-rangbar" />
       <ShowerOfBlessings path="/sadhanas/sob" />
       <ShowerOfBlessingsAddendum path="/sadhanas/sob-addendum" />
     </Router>

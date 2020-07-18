@@ -56,6 +56,11 @@ function Teachings() {
             Seven Line Prayer Teaching by H.H. Taklung Tsetrul Rinpoche
           </Link>
         </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="lama-rangbar">
+            The Seven Line Invocation of Guru Rinpoche by Lama Rangbar
+          </Link>
+        </S.TeachingsLink>
       </Container>
     </>
   );
