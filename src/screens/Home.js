@@ -1,10 +1,24 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import numeral from "numeral";
 
 import Quote from "components/Quote";
+import { getCount } from "utils/api";
 import * as S from "./styles";
 
 function Home() {
+  const [countValue, setCountValue] = React.useState();
+  async function getCounterValue() {
+    const currentCountValue = await getCount();
+    if (!countValue) {
+      setCountValue(currentCountValue);
+    }
+  }
+
+  if (!countValue) {
+    getCounterValue();
+  }
+
   return (
     <>
       <Container>
@@ -29,7 +43,15 @@ function Home() {
           >
             <span>Submit Accumulations</span>
           </S.AccumulationsButton>
-          <p>Current count: 17,359,008</p>
+          {countValue ? (
+            <S.CallToAction>
+              Current count: {numeral(countValue.value).format("0,0")}
+            </S.CallToAction>
+          ) : (
+            <S.CallToAction>
+              Loading current accumulation count...
+            </S.CallToAction>
+          )}
         </S.CenterContainer>
         <Quote author="Mipham the Great (1846-1912)">
           Of all the prayers to the great and glorious master of Oddiyana,
