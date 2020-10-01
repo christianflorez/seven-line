@@ -27,8 +27,9 @@ function Home() {
             size="lg"
             href="https://docs.google.com/forms/d/e/1FAIpQLSf6RSFP97RgzK4oZnFNikSqMwFSz_kt5oINZnIkdPp1gxgw6A/viewform?c=0&w=1"
           >
-            Submit Accumulations
+            <span>Submit Accumulations</span>
           </S.AccumulationsButton>
+          <p>Current count: 17,359,008</p>
         </S.CenterContainer>
         <Quote author="Mipham the Great (1846-1912)">
           Of all the prayers to the great and glorious master of Oddiyana,
@@ -98,12 +99,16 @@ function Home() {
           endorsed this global accumulation, asking all those connected with him
           to join. He also graciously agreed to compose a short piece of writing
           on the benefits of this invocation, to help encourage everyone to
-          join. We include it here in Tibetan, with a translation forthcoming:
+          join.
         </p>
         <S.CenterContainer>
           <S.Image
-            src="/images/btbenefits.jpg"
-            alt="Bhaka Tulku's Writing on the benefits of the Seven Line Prayer (in Tibetan)"
+            src="/images/7lp-bt-1.jpg"
+            alt="Text of the Seven Line Prayer in Tibetan and English"
+          />
+          <S.Image
+            src="/images/7lp-bt-2.jpg"
+            alt="Bhaka Tulku's Writing on the benefits of the Seven Line Prayer (in English) - Page 2"
           />
         </S.CenterContainer>
         <S.CenterContainer>
@@ -117,7 +122,7 @@ function Home() {
           </S.ImageCaption>
         </S.CenterContainer>
         <p>
-          Already we have accumulated a great number, and are approaching 12
+          Already we have accumulated a great number, and are approaching 20
           million, however this is a small portion of the vast goal. So please
           join and spread the word, and encourage others to as well. If everyone
           joins in with joyful diligence it is certain that we can accomplish
@@ -147,7 +152,6 @@ function Home() {
           >
             Signup for our Email List here
           </S.EmailSignupButton>
-          <S.Image src="/images/prayer.jpg" alt="Seven Line Prayer" />
         </S.CenterContainer>
         <Quote author="Terton Pema Garwang Chi-me Yungdrung Lingpa">
           The way to accomplish oneself as Guru Rinpoche, is all rooted in the

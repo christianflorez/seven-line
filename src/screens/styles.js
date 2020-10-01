@@ -24,9 +24,15 @@ export const EmphasizedParagraph = styled.p`
 `;
 
 export const AccumulationsButton = styled(Button)`
-  width: 15rem;
+  width: 20rem;
+  height: 6rem;
+  font-size: 1.6rem;
   background-color: ${colors.lightBlue};
   border-color: ${colors.lightBlue};
+  display: flex;
+  flex-flow: column no-wrap;
+  justify-content: center;
+  align-items: center;
 
   &&:hover {
     background-color: ${colors.yellow};
