@@ -23,7 +23,7 @@ function Screens() {
   return (
     <Router primary={false}>
       <Home path="/" />
-      <Admin path="/admin" />
+      <Admin path="/354144d7-220f-45df-8ab3-786723aeb87a" />
       <Gallery path="/gallery" />
       <Guidelines path="/guidelines" />
       <Media path="/media" />
