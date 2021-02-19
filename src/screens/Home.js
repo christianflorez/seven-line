@@ -144,7 +144,7 @@ function Home() {
           </S.ImageCaption>
         </S.CenterContainer>
         <p>
-          Already we have accumulated a great number, and are approaching 20
+          Already we have accumulated a great number, and are approaching 50
           million, however this is a small portion of the vast goal. So please
           join and spread the word, and encourage others to as well. If everyone
           joins in with joyful diligence it is certain that we can accomplish
