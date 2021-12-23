@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Alert from "react-bootstrap/Alert";
 
-import { setCount } from "utils/api";
+import { setCount } from "services/countapi";
 import * as S from "./styles";
 
 function Admin() {

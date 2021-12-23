@@ -1,22 +1,22 @@
 import React from "react";
+import Spinner from "react-bootstrap/Spinner";
 import Container from "react-bootstrap/Container";
 import numeral from "numeral";
-
+import useContentful from "services/contentful";
 import Quote from "components/Quote";
-import { getCount } from "utils/api";
+import { getCount, useGetCount } from "services/countapi";
 import * as S from "./styles";
 
 function Home() {
-  const [countValue, setCountValue] = React.useState();
-  async function getCounterValue() {
-    const currentCountValue = await getCount();
-    if (!countValue) {
-      setCountValue(currentCountValue);
-    }
-  }
+  const { data, error, isLoading } = useContentful("home");
+  const {
+    data: countValue,
+    error: countError,
+    isLoading: countIsLoading,
+  } = useGetCount();
 
-  if (!countValue) {
-    getCounterValue();
+  if (isLoading || countIsLoading) {
+    return <Spinner animation="border" role="status" />;
   }
 
   return (
