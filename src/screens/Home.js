@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import Spinner from "react-bootstrap/Spinner";
 import Container from "react-bootstrap/Container";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
@@ -24,6 +25,8 @@ function Home() {
       ),
     },
   };
+
+  const content = _.get(data, "items[0].fields.main");
 
   return (
     <>
@@ -78,7 +81,7 @@ function Home() {
           Why we are joining together to recite 21,000,000,000 and why this
           invocation is so powerful:
         </h2>
-        {documentToReactComponents(data.items[0].fields.main, options)}
+        {documentToReactComponents(content, options)}
         <S.CenterContainer>
           <S.Image
             src="/images/7lp-bt-1.jpg"

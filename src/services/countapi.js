@@ -31,7 +31,6 @@ export function useGetCount(page) {
     async function loadCount() {
       try {
         const count = await getCount();
-        console.log("count", count);
         setData(count);
       } catch (err) {
         console.err(err);
