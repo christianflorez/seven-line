@@ -1,6 +1,8 @@
 import React from "react";
 import Spinner from "react-bootstrap/Spinner";
 import Container from "react-bootstrap/Container";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import { MARKS } from "@contentful/rich-text-types";
 import numeral from "numeral";
 import useContentful from "services/contentful";
 import Quote from "components/Quote";
@@ -18,6 +20,14 @@ function Home() {
   if (isLoading || countIsLoading) {
     return <Spinner animation="border" role="status" />;
   }
+
+  const options = {
+    renderMark: {
+      [MARKS.ITALIC]: (text) => (
+        <S.EmphasizedParagraph>{text}</S.EmphasizedParagraph>
+      ),
+    },
+  };
 
   return (
     <>
@@ -72,57 +82,7 @@ function Home() {
           Why we are joining together to recite 21,000,000,000 and why this
           invocation is so powerful:
         </h2>
-        <p>
-          The Seven-Line Prayer, an invocation of the Indian Mahasiddha named
-          Padmasambhava—also often referred to as Guru Rinpoche, "Precious Guru"
-          and known as the Second Buddha—is not merely a prayer. It also
-          functions as a method to awaken one's own primordial wisdom-mind
-          according to the profound path of Ati Yoga. Although Padmasambhava is
-          a historical figure who's known for establishing the Dharma in the
-          land of Tibet, removing all obstacles and training his heart
-          disciples; it's also understood that he achieved a miraculous state
-          beyond death through which he can spontaneously benefit all those who
-          address him with heartfelt devotion. The Seven-Line Prayer is
-          universally known as the best means with which to do so.
-        </p>
-        <p>
-          One special revealer of Padmasambhava's hidden treasure teachings in
-          the 20th century, widely considered to be both his emanation and
-          regent, was Kyabje Dudjom Jigdral Yeshe Dorje Rinpoche (1904-1987).
-          Dudjom Rinpoche's own son, heart disciple and lineage heir known as
-          Dungse Shenphen Dawa Norbu Rinpoche, in the years prior to his
-          Mahaparinirvana in 2018, often repeated this heartfelt advice to many
-          of his disciples:
-        </p>
-        <S.EmphasizedParagraph>
-          The most important activity to help dispel imminent global obstacles
-          to peace and harmony, as well as environmental problems, disease and
-          instability, is to recite and accumulate the Seven-Line Prayer.
-        </S.EmphasizedParagraph>
-        <p>
-          At the time when Rinpoche last spoke of this in early 2018, he
-          increased the number he felt would be able to shift our world's
-          destructive course from one billion recitations to twenty one billion
-          (21,000,000,000). The implication was that the negative potentials had
-          gained so much momentum that it would require this immense number to
-          turn the tide. Clearly this will require a global effort!
-        </p>
-        <p>
-          Now this is not an effort specific to one sangha or one lineage.
-          Firstly, Dungse Shenphen Dawa Norbu Rinpoche has merged with the
-          dharmakaya, so he can not oversee this, although he was an initial
-          inspiration. Secondly, the only way to achieve such a vast number is
-          through an egalitarian spirit of collaboration among monks, nuns,
-          yogis and yoginis around the world from various sanghas, monasteries,
-          nunneries, gars, etc. in a way never done before. And not just
-          Nyingmapas, but from all schools, anyone who feels faith and devotion
-          to Guru Padmasambhava. In an inspiring example of this, Kyabje Bhakha
-          Tulku Rinpoche—an emanation of the great Terton Pema Lingpa—has fully
-          endorsed this global accumulation, asking all those connected with him
-          to join. He also graciously agreed to compose a short piece of writing
-          on the benefits of this invocation, to help encourage everyone to
-          join.
-        </p>
+        {documentToReactComponents(data.items[0].fields.main, options)}
         <S.CenterContainer>
           <S.Image
             src="/images/7lp-bt-1.jpg"
