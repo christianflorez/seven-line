@@ -6,16 +6,12 @@ import { MARKS } from "@contentful/rich-text-types";
 import numeral from "numeral";
 import useContentful from "services/contentful";
 import Quote from "components/Quote";
-import { getCount, useGetCount } from "services/countapi";
+import { useGetCount } from "services/countapi";
 import * as S from "./styles";
 
 function Home() {
-  const { data, error, isLoading } = useContentful("home");
-  const {
-    data: countValue,
-    error: countError,
-    isLoading: countIsLoading,
-  } = useGetCount();
+  const { data, isLoading } = useContentful("home");
+  const { data: countValue, isLoading: countIsLoading } = useGetCount();
 
   if (isLoading || countIsLoading) {
     return <Spinner animation="border" role="status" />;

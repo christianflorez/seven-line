@@ -17,6 +17,7 @@ export default function useContentful(page) {
       try {
         const content = await client.getEntries({
           "sys.contentType.sys.id": page,
+          "metadata.tags.sys.id[in]": "japaneseExample",
         });
         console.log("content", content);
         setData(content);
