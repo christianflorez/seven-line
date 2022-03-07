@@ -15,8 +15,6 @@ function Media() {
           <S.StyledReactPlayer url="https://youtu.be/Ugy-nlJQqaI" />
           <p>Chogyal Namkhai Norbu Rinpoche</p>
           <S.StyledReactPlayer url="https://m.youtube.com/watch?v=qaodaMwT6Ic#menu" />
-          <p>Jamgon Kongtrul Rinpoche</p>
-          <S.StyledReactPlayer url="https://youtu.be/kTI5ThNTeuo" />
           <p>Lama Gyurme</p>
           <S.StyledReactPlayer url="https://youtu.be/mnnIafds1Tw" />
           <p>H.E. Chagdud Tulku Rinpoche</p>
