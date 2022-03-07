@@ -18,6 +18,7 @@ import OrgyenTobgyal from "./Teachings/OrgyenTobgyal";
 import PemaGarwang from "./Teachings/PemaGarwang";
 import TaklungTsetrul from "./Teachings/TaklungTsetrul";
 import YangthangTulku from "./Teachings/YangthangTulku";
+import DawaChhodak from "./Teachings/DawaChhodak";
 
 function Screens() {
   return (
@@ -29,8 +30,8 @@ function Screens() {
       <Media path="/media" />
       <Sadhanas path="/sadhanas" />
       <ShowerOfBlessings path="/sadhanas/sob" />
-      <Teachings path="/teachings" />
       <ShowerOfBlessingsAddendum path="/sadhanas/sob-addendum" />
+      <Teachings path="/teachings" />
       <HHDudjomRinpoche path="/teachings/hh-dudjom-rinpoche" />
       <JamgonMipham path="/teachings/jamgon-mipham" />
       <LamaRangbar path="/teachings/lama-rangbar" />
@@ -40,6 +41,7 @@ function Screens() {
       <PemaGarwang path="/teachings/terton-pema-garwang" />
       <TaklungTsetrul path="/teachings/taklung-tsetrul" />
       <YangthangTulku path="/teachings/yangthang-tulku" />
+      <DawaChhodak path="/teachings/dawa-chhodak" />
     </Router>
   );
 }

@@ -70,6 +70,12 @@ function Teachings() {
             Seven Line Prayer Teachings by Khenpo Sodargye
           </a>
         </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="dawa-chhodak">
+            Teachings on the Seven-Line Prayer - Outer and Inner Meaning by
+            Acharya Dawa Chhodak Rinpoche
+          </Link>
+        </S.TeachingsLink>
       </Container>
     </>
   );
