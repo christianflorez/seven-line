@@ -1,23 +1,14 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import numeral from "numeral";
+import useAxios from "axios-hooks";
 
 import Quote from "components/Quote";
-import { getCount } from "utils/api";
 import * as S from "./styles";
 
 function Home() {
-  const [countValue, setCountValue] = React.useState();
-  async function getCounterValue() {
-    const currentCountValue = await getCount();
-    if (!countValue) {
-      setCountValue(currentCountValue);
-    }
-  }
-
-  if (!countValue) {
-    getCounterValue();
-  }
+  const [{ data, loading }] = useAxios(
+    "https://raw.githubusercontent.com/christianflorez/seven-line/master/count.json"
+  );
 
   return (
     <>
@@ -43,10 +34,8 @@ function Home() {
           >
             <span>Submit Accumulations</span>
           </S.AccumulationsButton>
-          {countValue ? (
-            <S.CallToAction>
-              Current count: {numeral(countValue.value).format("0,0")}
-            </S.CallToAction>
+          {!loading && data ? (
+            <S.CallToAction>Current count: {data.count}</S.CallToAction>
           ) : (
             <S.CallToAction>
               Loading current accumulation count...
