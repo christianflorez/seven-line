@@ -71,3 +71,18 @@ export const PageHeader = styled.h1`
 export const StyledReactPlayer = styled(ReactPlayer)`
   margin-bottom: 4rem;
 `;
+
+export const Footer = styled.footer`
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 10px;
+`;
+
+export const PrivacyContainer = styled.div`
+  > div {
+    margin-top: 20px;
+  }
+`;
