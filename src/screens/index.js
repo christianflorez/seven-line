@@ -11,7 +11,6 @@ import ShowerOfBlessingsAddendum from "./Sadhanas/ShowerOfBlessingsAddendum";
 import Teachings from "./Teachings";
 import HHDudjomRinpoche from "./Teachings/HHDudjomRinpoche";
 import JamgonMipham from "./Teachings/JamgonMipham";
-import LamaRangbar from "./Teachings/LamaRangbar";
 import LamaSangdu from "./Teachings/LamaSangdu";
 import LamaTharchin from "./Teachings/LamaTharchin";
 import OrgyenTobgyal from "./Teachings/OrgyenTobgyal";
