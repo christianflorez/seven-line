@@ -35,7 +35,6 @@ function Screens() {
         <Teachings path="/teachings" />
         <HHDudjomRinpoche path="/teachings/hh-dudjom-rinpoche" />
         <JamgonMipham path="/teachings/jamgon-mipham" />
-        <LamaRangbar path="/teachings/lama-rangbar" />
         <LamaSangdu path="/teachings/lama-sangdu" />
         <LamaTharchin path="/teachings/lama-tharchin" />
         <OrgyenTobgyal path="/teachings/orgyen-tobgyal" />
