@@ -57,11 +57,6 @@ function Teachings() {
           </Link>
         </S.TeachingsLink>
         <S.TeachingsLink>
-          <Link to="lama-rangbar">
-            The Seven Line Invocation of Guru Rinpoche by Lama Rangbar
-          </Link>
-        </S.TeachingsLink>
-        <S.TeachingsLink>
           <a
             href="https://khenposodargye.org/teachings/khenpos-classical-teachings/seven-line-prayer/"
             target="_blank"
