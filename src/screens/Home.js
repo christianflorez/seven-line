@@ -159,7 +159,7 @@ function Home() {
           <S.EmailSignupButton
             variant="primary"
             size="lg"
-            href="https://sevenlineprayer.us4.list-manage.com/subscribe/post?u=938505ce5a3186bedb1e0017d&amp;id=d9e5cd098f"
+            href="https://eepurl.com/g0H2l1"
           >
             Signup for our Email List here
           </S.EmailSignupButton>
