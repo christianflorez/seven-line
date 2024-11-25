@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import useAxios from "axios-hooks";
+import numeral from "numeral";
 
 import Quote from "components/Quote";
 import * as S from "./styles";
 
 function Home() {
-  const [{ data, loading }] = useAxios(
-    "https://raw.githubusercontent.com/christianflorez/seven-line/master/count.json"
-  );
+  const [{ data, loading }] = useAxios({
+    url: "https://seven-line-prayer.azurewebsites.net/api/AccumulationTrigger/",
+  });
 
   return (
     <>
@@ -35,7 +36,9 @@ function Home() {
             <span>Submit Accumulations</span>
           </S.AccumulationsButton>
           {!loading && data ? (
-            <S.CallToAction>Current count: {data.count}</S.CallToAction>
+            <S.CallToAction>
+              Current count: {numeral(data.count).format("0,0")}
+            </S.CallToAction>
           ) : (
             <S.CallToAction>
               Loading current accumulation count...
