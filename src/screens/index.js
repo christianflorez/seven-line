@@ -18,6 +18,7 @@ import PemaGarwang from "./Teachings/PemaGarwang";
 import TaklungTsetrul from "./Teachings/TaklungTsetrul";
 import YangthangTulku from "./Teachings/YangthangTulku";
 import DawaChhodak from "./Teachings/DawaChhodak";
+import PemaThinleyDrodul from "./Teachings/PemaThinleyDrodul";
 import PrivacyPolicy from "./PrivacyPolicy";
 
 function Screens() {
@@ -40,6 +41,7 @@ function Screens() {
         <PemaGarwang path="/teachings/terton-pema-garwang" />
         <TaklungTsetrul path="/teachings/taklung-tsetrul" />
         <YangthangTulku path="/teachings/yangthang-tulku" />
+        <PemaThinleyDrodul path="/teachings/pema-thinley-drodul" />
         <DawaChhodak path="/teachings/dawa-chhodak" />
         <PrivacyPolicy path="/privacy-policy" />
       </Router>

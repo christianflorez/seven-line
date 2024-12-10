@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import * as S from "./styles";
 
-function LamaTharchin() {
+function DawaChhodak() {
   return (
     <>
       <Container>
@@ -54,4 +54,4 @@ function LamaTharchin() {
   );
 }
 
-export default LamaTharchin;
+export default DawaChhodak;

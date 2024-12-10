@@ -21,3 +21,7 @@ export const CenterContainer = styled.div`
   flex-flow: column nowrap;
   align-items: center;
 `;
+
+export const Name = styled.span`
+  font-weight: bold;
+`;

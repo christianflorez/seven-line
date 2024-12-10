@@ -86,3 +86,11 @@ export const PrivacyContainer = styled.div`
     margin-top: 20px;
   }
 `;
+
+export const Name = styled.span`
+  font-weight: bold;
+`;
+
+export const BoldParagraphQuote = styled.p`
+  font-weight: bold;
+`;

@@ -71,6 +71,11 @@ function Teachings() {
             Acharya Dawa Chhodak Rinpoche
           </Link>
         </S.TeachingsLink>
+        <S.TeachingsLink>
+          <Link to="pema-thinley-drodul">
+            Teaching from Terton Pema Thinley Drodul
+          </Link>
+        </S.TeachingsLink>
       </Container>
     </>
   );
