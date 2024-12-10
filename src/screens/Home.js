@@ -45,11 +45,11 @@ function Home() {
               Loading current accumulation count...
             </S.CallToAction>
           )}
-          <S.CallToAction>
+          <S.AppCallToAction>
             We are thrilled to announce the new interactive mobile app with
             which you can make direct submissions, and even use the digital Mala
-            feature to assist your counting.
-          </S.CallToAction>
+            feature to assist your counting!
+          </S.AppCallToAction>
           <S.CallToAction>
             Download the app for free on iPhones or iPads{" "}
             <a href="https://apps.apple.com/us/app/seven-line-prayer/id6478575573">
@@ -143,17 +143,19 @@ function Home() {
         <p>
           <S.Name>
             His Holiness Kyabgon Gongma Trichen Rinpoche (the Sakya Trichen)
-          </S.Name>
+          </S.Name>{" "}
           agreed we should share these words of his here to encourage
-          participation: "Through [Guru Padmasambhava's] great kindness and
-          blessings Buddhism was able to be established in Tibet, and also
-          flourished all over Tibet and was maintained for the last, so many
-          years! And even now, also at this very critical time, when people have
-          so much troubles: wars, disasters, earthquakes, epidemics, and all
-          kinds of problems we are facing—I think all the Buddhas are the
-          same—but it's far easier to invoke our own karmically linked [Buddha]:
-          Guru Padmasambhava."
+          participation:
         </p>
+        <Quote>
+          "Through [Guru Padmasambhava's] great kindness and blessings Buddhism
+          was able to be established in Tibet, and also flourished all over
+          Tibet and was maintained for the last, so many years! And even now,
+          also at this very critical time, when people have so much troubles:
+          wars, disasters, earthquakes, epidemics, and all kinds of problems we
+          are facing—I think all the Buddhas are the same—but it's far easier to
+          invoke our own karmically linked [Buddha]: Guru Padmasambhava."
+        </Quote>
         <p>
           One great Dzogchen master who has always emphasized the Seven Line
           Prayer as a primary practice,{" "}

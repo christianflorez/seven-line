@@ -18,6 +18,10 @@ export const CallToAction = styled.p`
   font-weight: bold;
 `;
 
+export const AppCallToAction = styled(CallToAction)`
+  margin-top: 2rem;
+`;
+
 export const EmphasizedParagraph = styled.p`
   font-size: 1.3rem;
   font-style: italic;
