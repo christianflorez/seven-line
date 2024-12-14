@@ -59,11 +59,7 @@ function Home() {
             <a href="https://play.google.com/store/apps/details?id=org.scryn.sevenlineprayer&pcampaignid=web_share">
               here
             </a>{" "}
-            on Google Play, or{" "}
-            <a href="https://www.amazon.com/Southern-California-Region-Yeshe-Nyingpo/dp/B0CWYMTT3P?crid=2549EVZVO1EGA&dib=eyJ2IjoiMSJ9.GWPKPQ4HCXMjX3Ch3JqsWQ.0-wIgwjlXCCAvk6wOMutSOj3pkOl6aBzQQz5Qhqy66g&dib_tag=se&keywords=Seven+line+prayer&qid=1733770517&s=mobile-apps&sprefix=seven+line+prayer%2Cmobile-apps%2C74&sr=1-1">
-              here
-            </a>{" "}
-            on the Amazon App Store.
+            on Google Play.
           </S.CallToAction>
         </S.CenterContainer>
         <Quote author="Mipham the Great (1846-1912)">
