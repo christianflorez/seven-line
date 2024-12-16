@@ -238,8 +238,8 @@ function Home() {
           <Link to="/teachings/pema-thinley-drodul">here</Link>.
         </p>
         <p>
-          Already we have accumulated a great number, and are approaching 200
-          million, however this is a small portion of the vast goal. So please
+          Already we have accumulated a great number, and are approaching 1
+          billion, however this is a small portion of the vast goal. So please
           join and spread the word, and encourage others to as well. If everyone
           joins in with joyful diligence it is certain that we can accomplish
           our goal. Each person who joins a vast collective accumulation like
